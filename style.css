@@ -1,0 +1,179 @@
+@charset="utf-8";
+.header{
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+	padding: 0px 5%;
+}
+a {
+	text-decoration: none;
+}
+.header-logo{
+	font-size: 40px;
+	margin-bottom: -25px;
+}
+.header-subtitle{
+	font-size: 10px;
+}
+.header-nav{
+	margin-bottom:5px;
+	position: relative;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+}
+.header-nav a{
+	color: white;
+}
+ul>li{
+	display: inline-block;
+}
+ul>li>a{
+	padding: 15px 30px;
+	display: block;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+ul>li>span{
+margin-left:10px;
+}
+ul>li:hover>a{
+	background-color: black;;
+	color: lightgray;
+}
+ul li ul {
+	left: 0;
+}
+ul li ul li{
+	display: block;
+}
+ul li ul li a{
+	background-color: black;
+	color: white;
+}
+ul li ul li a:hover{
+	
+}
+.header-nav ul li ul{
+	display: none;
+}
+.header-nav ul li:hover ul{
+	display: block;
+}
+.eye-catch{
+	background-image: url(https://www.mobilefun.co.uk/blog/wp-content/uploads/2016/02/1453345938788_wliYEr_x86_banner.jpg);
+	width: 100%;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -16px;
+}
+.eye-catch-title{
+	text-align: center;
+	padding-top: 15%;
+	font-size: 35px;
+	color: brown;
+}
+.eye-catch p{
+	text-align: center;
+	font-size: 25px;
+	color: brown;
+}
+.introduction-title{
+	text-align: center;
+	margin-top: 80px;
+	font-size: 30px;
+}
+.introduction-subtitle{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 20px;
+}
+.introduction-contents{
+	display: inline-block;
+	width: 20%;
+	margin: 0 5%;
+}
+.introduction-main{
+	width: 100%;
+	margin:70px 0 0 30px;
+	text-align: center;
+	border-bottom: solid 1px gray;
+}
+.contents-title{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+.contents-logo{
+	text-align: center;
+	font-size: 40px;
+    color:bisque;
+	border: solid 3px bisque;
+	border-radius: 50%;
+	display: inline;
+	padding: 20px 30px;
+}
+.work-title{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 30px;
+}
+.work{
+	margin:0 5%;
+	margin-top: 50px;
+}
+.service{
+	display: inline-block;
+	width: 45%;
+}
+.service img{
+	width: 100%;
+}
+.concept{
+	display:inline-block;
+	width: 45%;
+	position: absolute;
+	margin-left: 3%;
+}
+.service button{
+    margin-left: 30%;
+	display: block;
+	padding: 5px 80px;
+	background-color: burlywood
+}
+.product a{
+	margin-right: 40px;
+	font-size: 30px;
+	color: bisque;
+	display: inline-block;
+}
+.product a:hover{
+	cursor: pointer;
+	transform: scale(1.4);
+}
+.product-title{
+	font-size: 25px;
+}
+.product-descript{
+	margin-left: 70px;
+}
+.footer{
+	margin-top: 25%;
+	background-color: black;
+	padding: 30px 0;
+}
+.footer ul{
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	margin: 0 5%;
+	color: white;
+}
+.footer li{
+	display: list-item;
+	text-decoration: none;
+	list-style: none;
+	text-align: center;
+}
